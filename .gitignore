@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Vite build output
+dist/
+
+# Environment (secrets — never commit)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+
+# Test / tooling
+coverage/
+
+# Caches
+.cache/
+.parcel-cache/
+*.tsbuildinfo
+
+# Vite (optional local cache; harmless if absent)
+.vite/
+
+# Azure Static Web Apps CLI local artifacts (if you use `swa` locally)
+.azure/
